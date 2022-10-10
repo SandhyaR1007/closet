@@ -1,7 +1,12 @@
 import "./App.css";
+import Navbar from "./components/Navbar";
 
 const App = () => {
-  return <p className="text-red-400">Closet</p>;
+  return (
+    <>
+      <Navbar />
+    </>
+  );
 };
 
 export default App;
