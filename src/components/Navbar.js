@@ -31,13 +31,8 @@ const Navbar = () => {
         <AiOutlineHeart className="cursor-pointer" />
         <HiOutlineShoppingBag className="cursor-pointer" />
       </div>
-      <div className="w-1/4  md:hidden flex justify-end pr-4 group">
+      <div className="w-1/4  md:hidden flex justify-end pr-4 ">
         <GiHamburgerMenu className="cursor-pointer text-lg" />
-        <ul className="hidden group-hover:block bg-black text-white  text-sm absolute w-screen">
-          <li className="py-1">Item 111</li>
-          <li className="py-1">Item 222</li>
-          <li className="py-1">Item 333</li>
-        </ul>
       </div>
     </div>
   );
